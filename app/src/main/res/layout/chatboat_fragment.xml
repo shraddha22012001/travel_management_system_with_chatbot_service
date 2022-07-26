@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chatboat">
+
+    <ListView
+        android:id="@+id/fgc_messages_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/chat_text_view_height"
+        android:background="@drawable/background"
+        android:divider="@color/transparent"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@color/transparent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:padding="2dp"
+        android:background="@color/transparent_blue"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/chat_text_view_height" >
+
+        <EditText
+            android:id="@+id/fgc_send_messages_text_view"
+            android:layout_width="295dp"
+            android:layout_height="49dp"
+            android:layout_marginRight="45dp"
+            android:gravity="top"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/fgc_send_messages_button"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_menu_send" />
+
+        <ImageButton
+            android:id="@+id/fgc_send_messages_button2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="41dp"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_btn_speak_now" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout >

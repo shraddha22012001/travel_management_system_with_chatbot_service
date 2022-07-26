@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fgc_main_layout"
+    tools:context=".FragmentGlobalChat">
+
+    <ListView
+        android:id="@+id/fgc_messages_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:background="@drawable/background"
+        android:divider="@color/transparent"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@color/transparent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chat_text_view_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="71dp"
+        android:background="@color/transparent_blue"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageButton
+            android:id="@+id/fgc_send_messages_button"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_menu_send" />
+
+        <ImageButton
+            android:id="@+id/fgc_send_messages_button2"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="41dp"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_btn_speak_now" />
+
+        <EditText
+            android:id="@+id/fgc_send_messages_text_view"
+            android:layout_width="295dp"
+            android:layout_height="49dp"
+            android:layout_marginRight="45dp"
+            android:gravity="top"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/chat_text_view_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:background="@color/transparent_blue"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="7dp"
+                android:text="Update Profile" />
+
+            <Button
+                android:id="@+id/security"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="7dp"
+                android:text=" Security qn
+" />
+
+            <Button
+                android:id="@+id/findroute"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="7dp"
+                android:text="Find Route" />
+
+            <Button
+                android:id="@+id/mainspot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="7dp"
+                android:text=" Main Spots" />
+
+            <Button
+                android:id="@+id/findparks"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="7dp"
+                android:text="Find Parks" />
+
+            <Button
+                android:id="@+id/findhotels"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="7dp"
+                android:text="Find Hotels" />
+            <Button
+                android:id="@+id/findresort"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="7dp"
+                android:text="Find Resorts" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
