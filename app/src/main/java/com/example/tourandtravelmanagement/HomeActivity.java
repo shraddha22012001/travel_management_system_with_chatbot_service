@@ -13,6 +13,7 @@ import com.example.tourandtravelmanagement.User.MapActivity;
 import com.example.tourandtravelmanagement.User.ParksActivity;
 import com.example.tourandtravelmanagement.User.RestaurantsActivity;
 import com.example.tourandtravelmanagement.User.UpdateProfileActivity;
+import com.example.tourandtravelmanagement.chatbot.MainActivity2;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import io.paperdb.Paper;
@@ -93,7 +94,8 @@ Parks_btn.setOnClickListener(new View.OnClickListener() {
      chatbot.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
-
+             Intent intent = new Intent(HomeActivity.this, MainActivity2.class);
+             startActivity(intent);
          }
      });
 

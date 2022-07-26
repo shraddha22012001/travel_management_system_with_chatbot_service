@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable/blue_border_rounded_cornwe.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable/blue_fill__rounded_color.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable/cursor_color.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable/message_me.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable/message_others.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/drawable/search.xml" value="0.236" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/activity_chat.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/activity_dummy2.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/activity_dummychatactivity.xml" value="0.1" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/activity_main2.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/activity_registeractivity.xml" value="0.15260416666666668" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/activity_restaurants.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/activity_update_profile.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/bookings_layout.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/chatboat_fragment.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/fragment_global_chat_fragment.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/fragment_login.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/fragment_users.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/item_list_user.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/layout/item_message_list.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shreya/StudioProjects/Travel-application-with-chatbot-service/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
